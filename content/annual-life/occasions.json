@@ -1,0 +1,52 @@
+{
+  "birthdays": [
+    {
+      "actor": "character",
+      "label": "角色",
+      "month_day": "06-05",
+      "basis": "Fictional example calendar date; editable by the operator."
+    }
+  ],
+  "trips": [
+    {
+      "id": "winter_pinewind",
+      "title": "松風村冬季小旅行",
+      "dates": [
+        "12-12",
+        "12-13"
+      ],
+      "area": "松風村",
+      "outing": "蜜糖屋糖果店",
+      "dining": "風鈴酒吧",
+      "bedroom": "松風村旅舍客房",
+      "focus": "逛村莊與糖果店，留一晚悠閒休息"
+    },
+    {
+      "id": "spring_oak_village",
+      "title": "橡樹村春季一日遊",
+      "dates": [
+        "04-17"
+      ],
+      "area": "橡樹村",
+      "outing": "橡樹村",
+      "dining": null,
+      "bedroom": null,
+      "focus": "沿村莊步行，觀察古老建築與村落歷史"
+    },
+    {
+      "id": "summer_whitesail",
+      "title": "白帆小屋附近海岸三日假期",
+      "dates": [
+        "08-13",
+        "08-14",
+        "08-15"
+      ],
+      "area": "白帆小屋附近海岸",
+      "outing": "白帆小屋附近海岸",
+      "dining": "白帆海岸旅舍餐廳",
+      "bedroom": "白帆海岸旅舍客房",
+      "focus": "海岸散步、素描與放下工作休息"
+    }
+  ],
+  "authoring_note": "目的地取原作地點；松風村與白帆旅舍客房、海岸旅舍餐廳為住宿需要的原創延伸，不是宣稱原作已命名的旅館。不安排進入白帆小屋或與原作人物會面，不預設使用者同行。"
+}

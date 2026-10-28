@@ -1,0 +1,318 @@
+{
+  "version": 1,
+  "worlds": {
+    "original_world": {
+      "label": "星港原創幻想世界",
+      "style": "星港原創幻想世界；避免現代電子設備",
+      "places": [
+        {
+          "id": "manor_study",
+          "name": "青葉莊園書房",
+          "aliases": [
+            "莊園書房",
+            "Manor Study"
+          ],
+          "environment": "indoor",
+          "background": "莊園書房內，深色木書架、舊書與木質書桌，石造壁爐與高窗"
+        },
+        {
+          "id": "manor_bedroom",
+          "name": "青葉莊園臥室",
+          "aliases": [
+            "莊園臥室",
+            "莊園寢室",
+            "Manor Bedroom"
+          ],
+          "environment": "indoor",
+          "background": "古老莊園的私人臥室，木雕四柱床與深色床幔、古典衣櫃、石造壁爐及高窗"
+        },
+        {
+          "id": "manor_bathroom",
+          "name": "青葉莊園浴室",
+          "aliases": [
+            "莊園浴室",
+            "Manor Bathroom"
+          ],
+          "environment": "indoor",
+          "background": "莊園浴室內，石材地面、獨立浴缸、黃銅水龍頭、古典鏡框與高處窄窗"
+        },
+        {
+          "id": "manor_lab",
+          "name": "青葉莊園實驗室",
+          "aliases": [
+            "莊園實驗室",
+            "青葉莊園魔藥實驗室",
+            "Manor Laboratory"
+          ],
+          "environment": "indoor",
+          "background": "莊園魔藥實驗室內，石材工作檯、坩堝、玻璃藥瓶、藥材架與古老筆記"
+        },
+        {
+          "id": "manor_dining",
+          "name": "青葉莊園餐廳",
+          "aliases": [
+            "莊園餐廳",
+            "Manor Dining Room"
+          ],
+          "environment": "indoor",
+          "background": "莊園餐廳內，長木餐桌、高背餐椅、銀製餐具與古典吊燈"
+        },
+        {
+          "id": "manor_garden",
+          "name": "青葉莊園花園",
+          "aliases": [
+            "莊園花園",
+            "Manor Garden"
+          ],
+          "environment": "outdoor",
+          "background": "莊園戶外花園，修剪整齊的樹籬、花圃、石徑與石製長椅，莊園外牆位於遠處"
+        },
+        {
+          "id": "manor_greenhouse",
+          "name": "青葉莊園溫室",
+          "aliases": [
+            "莊園溫室",
+            "Manor Greenhouse"
+          ],
+          "environment": "indoor",
+          "background": "莊園溫室內，玻璃頂棚、金屬框架、種植檯、盆栽與魔法植物"
+        },
+        {
+          "id": "academy_library",
+          "name": "星港學院圖書館",
+          "aliases": [
+            "Starharbor Academy Library"
+          ],
+          "environment": "indoor",
+          "background": "城堡圖書館內，高聳書架、成排舊書、長木閱讀桌與拱形窗"
+        },
+        {
+          "id": "academy_potions",
+          "name": "星港學院魔藥教室",
+          "aliases": [
+            "星港學院魔藥課教室",
+            "Starharbor Academy Potions Classroom"
+          ],
+          "environment": "indoor",
+          "background": "城堡地下魔藥教室，石牆、低拱頂、實驗桌、坩堝與玻璃藥瓶"
+        },
+        {
+          "id": "academy_corridor",
+          "name": "星港學院走廊",
+          "aliases": [
+            "Starharbor Academy Corridor"
+          ],
+          "environment": "indoor",
+          "background": "城堡走廊內，石造地面、拱廊、高窗與古老畫像，遠處連接石階"
+        },
+        {
+          "id": "stadium_ground",
+          "name": "星港學院競技場",
+          "aliases": [
+            "星港學院飛行競技球場",
+            "Starharbor Academy Flight Sport Pitch"
+          ],
+          "environment": "outdoor",
+          "background": "戶外飛行競技球場地面，開闊草地、環繞球場的高聳看台、旗幟與遠處球門環，上方是露天的天空"
+        },
+        {
+          "id": "stadium_air",
+          "name": "星港學院競技場上空",
+          "aliases": [
+            "星港學院飛行競技球場上空",
+            "Above Starharbor Academy Flight Sport Pitch"
+          ],
+          "environment": "air",
+          "background": "開闊天空中的高空視野，下方可見飛行競技球場草地、高聳看台、旗幟與球門環，遠處是城堡與山丘；視野沒有室內家具或窗框"
+        },
+        {
+          "id": "ministry_plaza",
+          "name": "星港市政廳廣場",
+          "aliases": [
+            "市政廳廣場",
+            "Starharbor Civic Plaza"
+          ],
+          "environment": "outdoor",
+          "background": "星港市政廳附近的戶外廣場，石板鋪地、古典英式建築外立面與開闊步行空間"
+        },
+        {
+          "id": "london_street",
+          "name": "星港魔法街道",
+          "aliases": [
+            "魔法街道",
+            "Old Town Starharbor Street"
+          ],
+          "environment": "outdoor",
+          "background": "星港幻想街區的戶外石板街道，古老商店外牆、櫥窗與懸掛招牌"
+        },
+        {
+          "id": "manor_kitchen",
+          "name": "青葉莊園廚房",
+          "aliases": [],
+          "environment": "indoor",
+          "background": "古老莊園廚房，石造爐灶、銅鍋、木製備餐檯與陶製茶壺"
+        },
+        {
+          "id": "manor_sitting",
+          "name": "青葉莊園起居室",
+          "aliases": [],
+          "environment": "indoor",
+          "background": "莊園起居室，壁爐、深色木家具、軟墊扶手椅與茶几"
+        },
+        {
+          "id": "manor_entrance",
+          "name": "青葉莊園門廳",
+          "aliases": [],
+          "environment": "indoor",
+          "background": "莊園門廳，石造地面、雕花木門、衣帽架與通往樓上的寬闊樓梯"
+        },
+        {
+          "id": "manor_terrace",
+          "name": "青葉莊園露台",
+          "aliases": [],
+          "environment": "outdoor",
+          "background": "莊園戶外露台，石欄杆、鍛鐵桌椅與遠處修剪整齊的花園"
+        },
+        {
+          "id": "hospital_lobby",
+          "name": "星港醫院大廳",
+          "aliases": [
+            "星港醫院"
+          ],
+          "environment": "indoor",
+          "background": "魔法醫院接待大廳，木製接待櫃檯、候診長椅、樓層指示牌與石造走廊"
+        },
+        {
+          "id": "hospital_potions",
+          "name": "星港醫院魔藥部",
+          "aliases": [],
+          "environment": "indoor",
+          "background": "魔法醫院魔藥部，整齊的藥材櫃、玻璃藥瓶、檢驗工作檯與乾淨石牆"
+        },
+        {
+          "id": "diagon_alley",
+          "name": "石板街",
+          "aliases": [],
+          "environment": "outdoor",
+          "background": "狹長的魔法商業街，石板路、歪斜的古老店面、懸掛招牌與櫥窗"
+        },
+        {
+          "id": "apothecary",
+          "name": "石板街藥材店",
+          "aliases": [],
+          "environment": "indoor",
+          "background": "魔法藥材商店，深色木櫃、密封玻璃罐、乾燥草藥與木製櫃檯"
+        },
+        {
+          "id": "bookshop",
+          "name": "拾頁書店",
+          "aliases": [],
+          "environment": "indoor",
+          "background": "魔法書店內，高聳木書架、堆疊書籍、展示書桌與古典櫥窗"
+        },
+        {
+          "id": "tea_room",
+          "name": "星港魔法茶館",
+          "aliases": [],
+          "environment": "indoor",
+          "background": "古典英式茶館內，木製小桌、瓷茶具、軟墊座椅與街景窗戶"
+        },
+        {
+          "id": "ministry_office",
+          "name": "市政廳辦公室",
+          "aliases": [],
+          "environment": "indoor",
+          "background": "市政廳辦公室內，深色木辦公桌、文件櫃、壁爐與古典門牌"
+        },
+        {
+          "id": "station",
+          "name": "星港學院特快車月台",
+          "aliases": [],
+          "environment": "outdoor",
+          "background": "蒸汽火車月台，石磚地面、鐵製站棚、行李推車與紅色蒸汽列車"
+        },
+        {
+          "id": "train",
+          "name": "星港學院特快車包廂",
+          "aliases": [],
+          "environment": "travel",
+          "background": "古典蒸汽列車包廂內，軟墊長椅、木質隔間、行李架與可見沿途景色的車窗"
+        },
+        {
+          "id": "lake",
+          "name": "星港學院黑湖湖畔",
+          "aliases": [],
+          "environment": "outdoor",
+          "background": "城堡旁的開闊湖畔，湖水、草岸、石徑與遠處城堡，天空直接映在水面"
+        },
+        {
+          "id": "duel",
+          "name": "莊園決鬥練習室",
+          "aliases": [],
+          "environment": "indoor",
+          "background": "莊園決鬥練習室，寬闊石造地面、防護標記、木製練習靶與高窗"
+        },
+        {
+          "id": "pinewind",
+          "name": "松風村",
+          "aliases": [
+            "Pinewind Village"
+          ],
+          "environment": "outdoor",
+          "background": "魔法村莊的石板街道，古老店屋、煙囪與商店招牌，遠處可見山丘"
+        },
+        {
+          "id": "broomsticks",
+          "name": "風鈴酒吧",
+          "aliases": [],
+          "environment": "indoor",
+          "background": "松風村的溫暖酒吧，粗木桌椅、吧檯、壁爐與厚實木樑"
+        },
+        {
+          "id": "honeydukes",
+          "name": "蜜糖屋糖果店",
+          "aliases": [],
+          "environment": "indoor",
+          "background": "魔法糖果商店內，彩色玻璃罐、整齊糖果貨架、紙袋與木製櫃檯"
+        },
+        {
+          "id": "pinewind_room",
+          "name": "松風村旅舍客房",
+          "aliases": [],
+          "environment": "indoor",
+          "background": "村內旅舍的簡單客房，木床、衣櫃、小桌與看向村街的窗戶；普通住宿空間而非私人住宅"
+        },
+        {
+          "id": "oak_village",
+          "name": "橡樹村",
+          "aliases": [
+            "Oak Village"
+          ],
+          "environment": "outdoor",
+          "background": "古老星港村莊的步行街與村廣場，石造屋舍、低矮石牆、老樹與遠處教堂"
+        },
+        {
+          "id": "shell_coast",
+          "name": "白帆小屋附近海岸",
+          "aliases": [],
+          "environment": "outdoor",
+          "background": "白帆海岸的公開步道與沙灘，海浪、沙丘和崖岸，遠處可見白色海邊小屋；不在小屋內或私人花園"
+        },
+        {
+          "id": "coast_room",
+          "name": "白帆海岸旅舍客房",
+          "aliases": [],
+          "environment": "indoor",
+          "background": "海岸旅舍的客房，木床、行李架、簡單衣櫃與可見海景的窗戶；不是白帆小屋"
+        },
+        {
+          "id": "coast_dining",
+          "name": "白帆海岸旅舍餐廳",
+          "aliases": [],
+          "environment": "indoor",
+          "background": "海岸旅舍的公共餐廳，木製餐桌、瓷製餐具與面向海岸的窗戶；不是私人住宅餐廳"
+        }
+      ]
+    }
+  }
+}

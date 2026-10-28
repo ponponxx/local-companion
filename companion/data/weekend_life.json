@@ -1,0 +1,398 @@
+[
+  {
+    "id": "diagon_shopping",
+    "title": "週末石板街散心",
+    "activities": [
+      {
+        "start": "00:00",
+        "activity": "夜間睡眠",
+        "location": "青葉莊園臥室",
+        "outcome": "休息",
+        "mood": "平靜",
+        "availability": "sleep",
+        "share_worthy": false,
+        "clothing": "素色棉質睡衣上衣、寬鬆棉質睡褲",
+        "accessories": "無",
+        "arrival_activity": ""
+      },
+      {
+        "start": "07:30",
+        "activity": "週末起床後盥洗與晨間整理",
+        "location": "青葉莊園浴室",
+        "outcome": "完成當下安排",
+        "mood": "平靜",
+        "availability": "free",
+        "share_worthy": false,
+        "clothing": "素色棉質晨袍、素色棉質上衣、寬鬆棉質長褲、防滑室內拖鞋",
+        "accessories": "無",
+        "arrival_activity": ""
+      },
+      {
+        "start": "08:00",
+        "activity": "慢慢享用週末早餐",
+        "location": "青葉莊園餐廳",
+        "outcome": "完成當下安排",
+        "mood": "平靜",
+        "availability": "free",
+        "share_worthy": false,
+        "clothing": "炭灰色合身外套、白色襯衫、深色長褲、深色襪子、黑色皮鞋",
+        "accessories": "無",
+        "arrival_activity": ""
+      },
+      {
+        "start": "10:00",
+        "activity": "悠閒逛街與看看商店櫥窗",
+        "location": "石板街",
+        "outcome": "休閒與保留自由安排",
+        "mood": "平靜",
+        "availability": "free",
+        "share_worthy": true,
+        "clothing": "深綠色長外套、白色襯衫、深色長褲、深色襪子、黑色短靴",
+        "accessories": "拋光山楂木魔杖、黑色皮革小包",
+        "arrival_activity": ""
+      },
+      {
+        "start": "12:30",
+        "activity": "午餐與坐下喝茶",
+        "location": "星港魔法茶館",
+        "outcome": "休閒與保留自由安排",
+        "mood": "平靜",
+        "availability": "free",
+        "share_worthy": false,
+        "clothing": "灰色針織外套、白色襯衫、深色長褲、深色襪子、黑色平底鞋",
+        "accessories": "拋光山楂木魔杖、黑色皮革小包",
+        "arrival_activity": ""
+      },
+      {
+        "start": "14:30",
+        "activity": "逛書店與挑選感興趣的讀物",
+        "location": "拾頁書店",
+        "outcome": "休閒與保留自由安排",
+        "mood": "平靜",
+        "availability": "free",
+        "share_worthy": true,
+        "clothing": "灰色針織外套、白色襯衫、深色長褲、深色襪子、黑色平底鞋",
+        "accessories": "拋光山楂木魔杖、黑色皮革小包",
+        "arrival_activity": ""
+      },
+      {
+        "start": "18:00",
+        "activity": "返家後享用晚餐",
+        "location": "青葉莊園餐廳",
+        "outcome": "完成當下安排",
+        "mood": "平靜",
+        "availability": "free",
+        "share_worthy": false,
+        "clothing": "炭灰色合身外套、白色襯衫、深色長褲、深色襪子、黑色皮鞋",
+        "accessories": "無",
+        "arrival_activity": ""
+      },
+      {
+        "start": "20:00",
+        "activity": "晚茶與輕鬆閱讀",
+        "location": "青葉莊園起居室",
+        "outcome": "完成當下安排",
+        "mood": "平靜",
+        "availability": "free",
+        "share_worthy": false,
+        "clothing": "柔軟針織外套、素色棉質上衣、寬鬆長褲、棉襪、室內拖鞋",
+        "accessories": "無",
+        "arrival_activity": ""
+      },
+      {
+        "start": "22:00",
+        "activity": "就寢與休息",
+        "location": "青葉莊園臥室",
+        "outcome": "休息",
+        "mood": "平靜",
+        "availability": "sleep",
+        "share_worthy": false,
+        "clothing": "素色棉質睡衣上衣、寬鬆棉質睡褲",
+        "accessories": "無",
+        "arrival_activity": ""
+      }
+    ],
+    "event_candidates": [
+      {
+        "at": "10:00",
+        "location": "石板街",
+        "kind": "weekend_choice",
+        "premise": "考慮挑一件感興趣的小物或一本書，也可以只看看不買。",
+        "boundary": "不預設購物完成、使用者同行或禮物已送出。",
+        "status": "draft"
+      },
+      {
+        "at": "14:30",
+        "location": "拾頁書店",
+        "kind": "weekend_rest",
+        "premise": "可以多逛一會兒，也可以提早休息。",
+        "boundary": "依實際進展選擇，不預設使用者參與。",
+        "status": "draft"
+      }
+    ]
+  },
+  {
+    "id": "books_and_tea",
+    "title": "週末書店與下午茶",
+    "activities": [
+      {
+        "start": "00:00",
+        "activity": "夜間睡眠",
+        "location": "青葉莊園臥室",
+        "outcome": "休息",
+        "mood": "平靜",
+        "availability": "sleep",
+        "share_worthy": false,
+        "clothing": "素色棉質睡衣上衣、寬鬆棉質睡褲",
+        "accessories": "無",
+        "arrival_activity": ""
+      },
+      {
+        "start": "07:30",
+        "activity": "週末起床後盥洗與晨間整理",
+        "location": "青葉莊園浴室",
+        "outcome": "完成當下安排",
+        "mood": "平靜",
+        "availability": "free",
+        "share_worthy": false,
+        "clothing": "素色棉質晨袍、素色棉質上衣、寬鬆棉質長褲、防滑室內拖鞋",
+        "accessories": "無",
+        "arrival_activity": ""
+      },
+      {
+        "start": "08:00",
+        "activity": "慢慢享用週末早餐",
+        "location": "青葉莊園餐廳",
+        "outcome": "完成當下安排",
+        "mood": "平靜",
+        "availability": "free",
+        "share_worthy": false,
+        "clothing": "炭灰色合身外套、白色襯衫、深色長褲、深色襪子、黑色皮鞋",
+        "accessories": "無",
+        "arrival_activity": ""
+      },
+      {
+        "start": "10:00",
+        "activity": "隨意翻閱想看的書，不趕研究進度",
+        "location": "拾頁書店",
+        "outcome": "休閒與保留自由安排",
+        "mood": "平靜",
+        "availability": "free",
+        "share_worthy": true,
+        "clothing": "灰色針織外套、白色襯衫、深色長褲、深色襪子、黑色平底鞋",
+        "accessories": "拋光山楂木魔杖、黑色皮革小包",
+        "arrival_activity": ""
+      },
+      {
+        "start": "12:30",
+        "activity": "午餐與休息",
+        "location": "星港魔法茶館",
+        "outcome": "休閒與保留自由安排",
+        "mood": "平靜",
+        "availability": "free",
+        "share_worthy": false,
+        "clothing": "灰色針織外套、白色襯衫、深色長褲、深色襪子、黑色平底鞋",
+        "accessories": "拋光山楂木魔杖、黑色皮革小包",
+        "arrival_activity": ""
+      },
+      {
+        "start": "14:30",
+        "activity": "沿街散步與看看小店陳列",
+        "location": "石板街",
+        "outcome": "休閒與保留自由安排",
+        "mood": "平靜",
+        "availability": "free",
+        "share_worthy": true,
+        "clothing": "深綠色長外套、白色襯衫、深色長褲、深色襪子、黑色短靴",
+        "accessories": "拋光山楂木魔杖、黑色皮革小包",
+        "arrival_activity": ""
+      },
+      {
+        "start": "18:00",
+        "activity": "返家後享用晚餐",
+        "location": "青葉莊園餐廳",
+        "outcome": "完成當下安排",
+        "mood": "平靜",
+        "availability": "free",
+        "share_worthy": false,
+        "clothing": "炭灰色合身外套、白色襯衫、深色長褲、深色襪子、黑色皮鞋",
+        "accessories": "無",
+        "arrival_activity": ""
+      },
+      {
+        "start": "20:00",
+        "activity": "晚茶與輕鬆閱讀",
+        "location": "青葉莊園起居室",
+        "outcome": "完成當下安排",
+        "mood": "平靜",
+        "availability": "free",
+        "share_worthy": false,
+        "clothing": "柔軟針織外套、素色棉質上衣、寬鬆長褲、棉襪、室內拖鞋",
+        "accessories": "無",
+        "arrival_activity": ""
+      },
+      {
+        "start": "22:00",
+        "activity": "就寢與休息",
+        "location": "青葉莊園臥室",
+        "outcome": "休息",
+        "mood": "平靜",
+        "availability": "sleep",
+        "share_worthy": false,
+        "clothing": "素色棉質睡衣上衣、寬鬆棉質睡褲",
+        "accessories": "無",
+        "arrival_activity": ""
+      }
+    ],
+    "event_candidates": [
+      {
+        "at": "10:00",
+        "location": "拾頁書店",
+        "kind": "weekend_choice",
+        "premise": "考慮挑一件感興趣的小物或一本書，也可以只看看不買。",
+        "boundary": "不預設購物完成、使用者同行或禮物已送出。",
+        "status": "draft"
+      },
+      {
+        "at": "14:30",
+        "location": "石板街",
+        "kind": "weekend_rest",
+        "premise": "可以多逛一會兒，也可以提早休息。",
+        "boundary": "依實際進展選擇，不預設使用者參與。",
+        "status": "draft"
+      }
+    ]
+  },
+  {
+    "id": "home_and_garden",
+    "title": "週末居家留白",
+    "activities": [
+      {
+        "start": "00:00",
+        "activity": "夜間睡眠",
+        "location": "青葉莊園臥室",
+        "outcome": "休息",
+        "mood": "平靜",
+        "availability": "sleep",
+        "share_worthy": false,
+        "clothing": "素色棉質睡衣上衣、寬鬆棉質睡褲",
+        "accessories": "無",
+        "arrival_activity": ""
+      },
+      {
+        "start": "07:30",
+        "activity": "週末起床後盥洗與晨間整理",
+        "location": "青葉莊園浴室",
+        "outcome": "完成當下安排",
+        "mood": "平靜",
+        "availability": "free",
+        "share_worthy": false,
+        "clothing": "素色棉質晨袍、素色棉質上衣、寬鬆棉質長褲、防滑室內拖鞋",
+        "accessories": "無",
+        "arrival_activity": ""
+      },
+      {
+        "start": "08:00",
+        "activity": "慢慢享用週末早餐",
+        "location": "青葉莊園餐廳",
+        "outcome": "完成當下安排",
+        "mood": "平靜",
+        "availability": "free",
+        "share_worthy": false,
+        "clothing": "炭灰色合身外套、白色襯衫、深色長褲、深色襪子、黑色皮鞋",
+        "accessories": "無",
+        "arrival_activity": ""
+      },
+      {
+        "start": "10:00",
+        "activity": "放下工作，輕鬆閱讀或整理日常小物",
+        "location": "青葉莊園起居室",
+        "outcome": "休閒與保留自由安排",
+        "mood": "平靜",
+        "availability": "free",
+        "share_worthy": true,
+        "clothing": "柔軟針織外套、素色棉質上衣、寬鬆長褲、棉襪、室內拖鞋",
+        "accessories": "無",
+        "arrival_activity": ""
+      },
+      {
+        "start": "12:30",
+        "activity": "享用午餐與留白休息",
+        "location": "青葉莊園餐廳",
+        "outcome": "休閒與保留自由安排",
+        "mood": "平靜",
+        "availability": "free",
+        "share_worthy": false,
+        "clothing": "炭灰色合身外套、白色襯衫、深色長褲、深色襪子、黑色皮鞋",
+        "accessories": "無",
+        "arrival_activity": ""
+      },
+      {
+        "start": "14:30",
+        "activity": "花園散步與享受不用趕行程的下午",
+        "location": "青葉莊園花園",
+        "outcome": "休閒與保留自由安排",
+        "mood": "平靜",
+        "availability": "free",
+        "share_worthy": true,
+        "clothing": "深綠色長外套、白色襯衫、深色長褲、深色襪子、黑色短靴",
+        "accessories": "拋光山楂木魔杖、黑色皮革小包",
+        "arrival_activity": ""
+      },
+      {
+        "start": "18:00",
+        "activity": "返家後享用晚餐",
+        "location": "青葉莊園餐廳",
+        "outcome": "完成當下安排",
+        "mood": "平靜",
+        "availability": "free",
+        "share_worthy": false,
+        "clothing": "炭灰色合身外套、白色襯衫、深色長褲、深色襪子、黑色皮鞋",
+        "accessories": "無",
+        "arrival_activity": ""
+      },
+      {
+        "start": "20:00",
+        "activity": "晚茶與輕鬆閱讀",
+        "location": "青葉莊園起居室",
+        "outcome": "完成當下安排",
+        "mood": "平靜",
+        "availability": "free",
+        "share_worthy": false,
+        "clothing": "柔軟針織外套、素色棉質上衣、寬鬆長褲、棉襪、室內拖鞋",
+        "accessories": "無",
+        "arrival_activity": ""
+      },
+      {
+        "start": "22:00",
+        "activity": "就寢與休息",
+        "location": "青葉莊園臥室",
+        "outcome": "休息",
+        "mood": "平靜",
+        "availability": "sleep",
+        "share_worthy": false,
+        "clothing": "素色棉質睡衣上衣、寬鬆棉質睡褲",
+        "accessories": "無",
+        "arrival_activity": ""
+      }
+    ],
+    "event_candidates": [
+      {
+        "at": "10:00",
+        "location": "青葉莊園起居室",
+        "kind": "weekend_choice",
+        "premise": "考慮挑一件感興趣的小物或一本書，也可以只看看不買。",
+        "boundary": "不預設購物完成、使用者同行或禮物已送出。",
+        "status": "draft"
+      },
+      {
+        "at": "14:30",
+        "location": "青葉莊園花園",
+        "kind": "weekend_rest",
+        "premise": "可以多逛一會兒，也可以提早休息。",
+        "boundary": "依實際進展選擇，不預設使用者參與。",
+        "status": "draft"
+      }
+    ]
+  }
+]

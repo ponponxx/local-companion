@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "worlds": {
+    "original_world": {
+      "looks": {
+        "work": {
+          "outerwear": "深紫色實驗袍",
+          "top": "白色襯衫",
+          "bottom": "深色長褲",
+          "socks": "深色襪子",
+          "shoes": "黑色皮鞋",
+          "dress": "未穿著",
+          "underwear": "日常內著",
+          "accessories": "未穿著"
+        },
+        "reading": {
+          "outerwear": "灰色針織外套",
+          "top": "白色襯衫",
+          "bottom": "深色長褲",
+          "socks": "深色襪子",
+          "shoes": "黑色平底鞋",
+          "dress": "未穿著",
+          "underwear": "日常內著",
+          "accessories": "未穿著"
+        },
+        "home": {
+          "outerwear": "柔軟針織外套",
+          "top": "素色棉質上衣",
+          "bottom": "寬鬆長褲",
+          "socks": "棉襪",
+          "shoes": "室內拖鞋",
+          "dress": "未穿著",
+          "underwear": "日常內著",
+          "accessories": "未穿著"
+        },
+        "outdoor": {
+          "outerwear": "深綠色長外套",
+          "top": "白色襯衫",
+          "bottom": "深色長褲",
+          "socks": "深色襪子",
+          "shoes": "黑色短靴",
+          "dress": "未穿著",
+          "underwear": "日常內著",
+          "accessories": "未穿著"
+        },
+        "practice": {
+          "outerwear": "綠色運動外套",
+          "top": "輕便棉質上衣",
+          "bottom": "深色運動長褲",
+          "socks": "運動襪",
+          "shoes": "運動短靴",
+          "dress": "未穿著",
+          "underwear": "日常內著",
+          "accessories": "防護手套"
+        },
+        "formal": {
+          "outerwear": "炭灰色合身外套",
+          "top": "白色襯衫",
+          "bottom": "深色長褲",
+          "socks": "深色襪子",
+          "shoes": "黑色皮鞋",
+          "dress": "未穿著",
+          "underwear": "日常內著",
+          "accessories": "未穿著"
+        },
+        "sleep": {
+          "outerwear": "未穿著",
+          "top": "素色棉質睡衣上衣",
+          "bottom": "寬鬆棉質睡褲",
+          "dress": "未穿著",
+          "underwear": "日常內著",
+          "socks": "未穿著",
+          "shoes": "未穿著",
+          "accessories": "未穿著"
+        },
+        "wash": {
+          "outerwear": "素色棉質晨袍",
+          "top": "素色棉質上衣",
+          "bottom": "寬鬆棉質長褲",
+          "dress": "未穿著",
+          "underwear": "日常內著",
+          "socks": "未穿著",
+          "shoes": "防滑室內拖鞋",
+          "accessories": "未穿著"
+        },
+        "kitchen": {
+          "outerwear": "乾淨的備餐圍裙",
+          "top": "素色棉質上衣",
+          "bottom": "寬鬆長褲",
+          "socks": "棉襪",
+          "shoes": "室內拖鞋",
+          "dress": "未穿著",
+          "underwear": "日常內著",
+          "accessories": "未穿著"
+        },
+        "visitor": {
+          "outerwear": "深綠色長外套",
+          "top": "白色襯衫",
+          "bottom": "深色長褲",
+          "socks": "深色襪子",
+          "shoes": "黑色皮鞋",
+          "dress": "未穿著",
+          "underwear": "日常內著",
+          "accessories": "未穿著"
+        }
+      },
+      "places": {
+        "manor_study": "reading",
+        "manor_bedroom": "home",
+        "manor_bathroom": "home",
+        "manor_lab": "work",
+        "manor_dining": "formal",
+        "manor_garden": "outdoor",
+        "manor_greenhouse": "work",
+        "academy_library": "reading",
+        "academy_potions": "work",
+        "academy_corridor": "formal",
+        "stadium_ground": "practice",
+        "stadium_air": "practice",
+        "ministry_plaza": "formal",
+        "london_street": "outdoor",
+        "manor_kitchen": "kitchen",
+        "manor_sitting": "home",
+        "manor_entrance": "outdoor",
+        "manor_terrace": "outdoor",
+        "hospital_lobby": "visitor",
+        "hospital_potions": "work",
+        "diagon_alley": "outdoor",
+        "apothecary": "outdoor",
+        "bookshop": "reading",
+        "tea_room": "reading",
+        "ministry_office": "formal",
+        "station": "outdoor",
+        "train": "formal",
+        "lake": "outdoor",
+        "duel": "practice",
+        "pinewind": "outdoor",
+        "broomsticks": "reading",
+        "honeydukes": "visitor",
+        "pinewind_room": "home",
+        "oak_village": "outdoor",
+        "shell_coast": "outdoor",
+        "coast_room": "home",
+        "coast_dining": "reading"
+      },
+      "environment_defaults": {
+        "indoor": "home",
+        "outdoor": "outdoor",
+        "air": "practice",
+        "travel": "formal"
+      }
+    }
+  }
+}

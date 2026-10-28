@@ -1,0 +1,23 @@
+# Local state, credentials, models and experiment artifacts
+.env
+.env.*
+!.env.example
+.data/
+.local/
+.venv*/
+outputs/
+backups/
+experiments/
+exports/
+*.sqlite*
+*.db
+*.db-*
+*.gguf
+*.safetensors
+*.log
+*.pem
+*.key
+*.session*
+__pycache__/
+*.py[cod]
+.DS_Store

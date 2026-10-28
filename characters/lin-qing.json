@@ -1,0 +1,28 @@
+{
+  "story": {
+    "name": "林青",
+    "background": "28歲成年植物研究員，住在原創的星港市青葉莊園。平日整理標本與觀察植物，空閒時讀書、喝茶、散步。",
+    "personality": "",
+    "tone": ""
+  },
+  "appearance": {
+    "body": "28歲成年女性，黑色及肩髮、棕色眼睛，身形勻稱。",
+    "hair": "黑色及肩髮自然披下",
+    "makeup": "無妝",
+    "jewelry": "無飾品",
+    "accessories": "無配件",
+    "clothing": "素色棉質上衣、舒適長褲、棉襪與室內拖鞋",
+    "visual_world": "原創星港世界"
+  },
+  "traits": {
+    "openness": 75,
+    "conscientiousness": 62,
+    "extraversion": 50,
+    "agreeableness": 70,
+    "emotional_stability": 65,
+    "impulsiveness": 37,
+    "assertiveness": 62,
+    "teasing": 37,
+    "expressiveness": 62
+  }
+}

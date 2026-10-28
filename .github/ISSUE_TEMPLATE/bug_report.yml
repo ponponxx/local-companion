@@ -1,0 +1,24 @@
+name: Reproducible bug
+description: Report a synthetic example without private records
+title: "[Bug] "
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and model
+      description: OS, chip/RAM, model name, runtime version; no credentials.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Fictional input and starting state
+      description: Never attach real databases or private Prompt archives.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected versus actual state or reply
+    validations:
+      required: true

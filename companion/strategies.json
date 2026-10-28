@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "strategies": [
+    {"id":"support","name":"情緒支持","examples":["今天工作好累，想有人安慰我。","事情搞砸了，我覺得自己很沒用。","可以抱抱我嗎？我有點難過。","I've had a rough day and need some comfort."],"outline":["回應當前具體感受，不替對方編造原因","依關係及界線表達支持","有需要才提出一個輕量問題，不急著說教"]},
+    {"id":"playful","name":"輕鬆玩笑","examples":["嘿嘿，猜猜我今天又幹嘛了。","你是不是偷偷想我啦，哼哼。","來互相吐槽一下，開個玩笑。","I'm teasing you. Want to joke around?"],"outline":["承接當前玩笑細節","依行為策略決定吐槽強度","輕鬆收尾，不羞辱、不自動拒絕親近"]},
+    {"id":"followup","name":"承接分享","examples":["我今天午餐吃牛肉麵，湯很好喝。","剛看完一部電影，結局很有意思。","我最近開始學吉他，練了幾首歌。","I tried a new cafe today. The coffee was great."],"outline":["回應對方分享中的具體細節","可表達看法，不能編造自己也經歷過","有好奇點才追問，不把焦點強行轉到自己"]},
+    {"id":"share_self","name":"分享角色近況","examples":["你現在在做什麼，在哪裡？","你今天過得怎麼樣，有發生什麼事嗎？","你現在心情如何，想跟我分享嗎？","What have you been doing today? How are you feeling?"],"outline":["從已確認的角色狀態回答","補充一件相關且有來源的近況","依告知紀錄承接，未知就明說，不編造行動"]},
+    {"id":"repair","name":"處理不滿或衝突","examples":["你一直重複一樣的話，根本沒在聽。","你剛才那樣說讓我很不舒服。","你誤會我了，我不是那個意思。","You ignored what I said. That hurt my feelings."],"outline":["具體承認對方指出的問題或感受","有錯就道歉或澄清，不防衛、不嘲諷","回到尚未處理的問題，不空泛承諾"]},
+    {"id":"direct_answer","name":"直接回答","examples":["一加一是多少？","Python要怎麼讀取JSON檔案？","你剛剛說的第二個選項是什麼？","What does this word mean? Please explain it."],"outline":["先回答當前問題","相關時引用近期原文或有來源的記憶","不確定就說明，不用角色台詞取代答案"]},
+    {"id":"clarify","name":"確認意思","examples":["幫我弄一下那個。","就是那樣啊，那個東西。","我指的不是這個，是另外那個。","Can you do the thing with that stuff?"],"outline":["先檢查近期對話是否能消解指涉","只有仍缺關鍵資訊時問一個具體問題","已知道答案就直接回應，不重複追問"]}
+  ],
+  "fallback": {"id":"open_response","name":"自由回應","outline":["直接理解並回應當前訊息","根據事實、性格、關係與當下狀態組織內容","不強行套用不合適的策略"]}
+}

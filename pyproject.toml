@@ -1,0 +1,12 @@
+[project]
+name = "telegram-local-companion"
+version = "0.1.0a1"
+description = "Single-user Telegram companion with local inference, memory, voice and on-demand images"
+requires-python = ">=3.12"
+dependencies = ["httpx>=0.28,<0.29", "python-dotenv>=1.1,<2"]
+
+[project.optional-dependencies]
+setup = ["cmake>=3.30,<5", "imageio-ffmpeg>=0.6,<0.7", "huggingface-hub>=1,<2"]
+
+[tool.uv]
+package = false

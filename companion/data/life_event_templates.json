@@ -1,0 +1,204 @@
+{
+  "reading_note": {
+    "title": "資料中的一處疑點",
+    "activities": [
+      "閱讀",
+      "圖鑑",
+      "查閱",
+      "讀書",
+      "文獻",
+      "看書",
+      "研究",
+      "reading",
+      "research"
+    ],
+    "opening": "閱讀資料時，角色發現一處註記與附近的說明對不上，想查清楚原因。",
+    "focus": "查清楚註記的差異；沒有足夠資料也可以保留疑問。",
+    "kind": "discovery",
+    "branches": {
+      "check_index": {
+        "text": "角色查了資料的索引，找到可以繼續比對的段落，還沒有急著下結論。",
+        "outcome": "progress",
+        "kind": "discovery"
+      },
+      "compare": {
+        "text": "角色重新比對前後文，發現差異集中在一個用詞上，準備再確認它的意思。",
+        "outcome": "progress",
+        "kind": "discovery"
+      },
+      "resolve": {
+        "text": "比對前後文後，角色確認是自己混淆了兩個相似用詞，終於弄懂註記的意思。",
+        "outcome": "resolved",
+        "kind": "delight"
+      },
+      "leave_open": {
+        "text": "現有資料不足以解釋差異，角色先把疑點記下，這次不勉強下結論。",
+        "outcome": "unresolved",
+        "kind": "setback"
+      }
+    }
+  },
+  "work_revision": {
+    "title": "手頭工作的一個小差錯",
+    "activities": [
+      "研究",
+      "工作",
+      "實驗",
+      "整理",
+      "文件",
+      "配方",
+      "魔藥",
+      "work",
+      "experiment"
+    ],
+    "opening": "檢查手頭工作時，角色發現一個小步驟沒有處理妥當，決定找出是哪裡出了差錯。",
+    "focus": "釐清一個日常小差錯，不延伸成事故或危機。",
+    "kind": "setback",
+    "branches": {
+      "review": {
+        "text": "角色從頭檢查處理順序，找到了需要重新確認的那個步驟。",
+        "outcome": "progress",
+        "kind": "discovery"
+      },
+      "retry": {
+        "text": "角色放慢速度重新試了一次，結果比剛才穩定，還想再確認一下。",
+        "outcome": "progress",
+        "kind": "discovery"
+      },
+      "resolve": {
+        "text": "角色釐清了處理順序，把小差錯修正好，對這次的經驗多了一點把握。",
+        "outcome": "resolved",
+        "kind": "delight"
+      },
+      "leave_open": {
+        "text": "角色暫時還不能確定原因，先記下問題，決定這次不急著處理完。",
+        "outcome": "unresolved",
+        "kind": "setback"
+      }
+    }
+  },
+  "garden_detail": {
+    "title": "一片不太一樣的葉子",
+    "activities": [
+      "花園",
+      "植物",
+      "溫室",
+      "園藝",
+      "種植",
+      "garden",
+      "plant"
+    ],
+    "opening": "觀察植物時，角色留意到一片葉子的形狀與旁邊幾片略有不同，產生了一點好奇。",
+    "focus": "觀察植物的日常差異，不創造異變、危機或新生物。",
+    "kind": "discovery",
+    "branches": {
+      "compare": {
+        "text": "角色仔細看了附近幾片葉子，發現大小與形狀並不完全相同，覺得很有意思。",
+        "outcome": "progress",
+        "kind": "discovery"
+      },
+      "resolve": {
+        "text": "角色確認只是葉片成長階段不同，雖然不是大發現，仍很喜歡這個小細節。",
+        "outcome": "resolved",
+        "kind": "delight"
+      },
+      "leave_open": {
+        "text": "角色還無法判斷葉片差異的原因，先記住這個觀察，沒有替它編一個答案。",
+        "outcome": "unresolved",
+        "kind": "discovery"
+      }
+    }
+  },
+  "pleasant_meal": {
+    "title": "比預期更喜歡的味道",
+    "activities": [
+      "早餐",
+      "午餐",
+      "晚餐",
+      "用餐",
+      "喝茶",
+      "下午茶",
+      "飲茶",
+      "breakfast",
+      "lunch",
+      "dinner",
+      "tea"
+    ],
+    "opening": "用餐或喝茶時，角色發現這次的香氣比預期更合自己的喜好，心情稍微亮起來。",
+    "focus": "一次平凡但愉快的味覺經驗，不新增購物、人物或共同用餐。",
+    "kind": "delight",
+    "branches": {
+      "notice": {
+        "text": "角色慢慢品味了一下，留意到先前沒注意的淡淡餘味，覺得這個空檔很舒服。",
+        "outcome": "progress",
+        "kind": "delight"
+      },
+      "resolve": {
+        "text": "角色享受完這個小小的用餐空檔，記住了自己喜歡這次的味道。",
+        "outcome": "resolved",
+        "kind": "delight"
+      },
+      "leave_open": {
+        "text": "角色沒有特別追究味道的差異，讓這次的小驚喜停留在一段愉快的休息裡。",
+        "outcome": "resolved",
+        "kind": "delight"
+      }
+    }
+  },
+  "practice_hiccup": {
+    "title": "熟悉步驟的小卡關",
+    "activities": [
+      "練習",
+      "飛行",
+      "決鬥",
+      "跳舞",
+      "運動",
+      "practice",
+      "exercise"
+    ],
+    "opening": "練習時，角色發現一個熟悉步驟做得不如預期，停下來思考怎麼調整。",
+    "focus": "普通練習中的小卡關，不造成傷害或新的能力設定。",
+    "kind": "setback",
+    "branches": {
+      "slow_down": {
+        "text": "角色把動作拆開，放慢速度再試，逐漸看出原本忽略的細節。",
+        "outcome": "progress",
+        "kind": "discovery"
+      },
+      "resolve": {
+        "text": "調整節奏後，角色把那個步驟完成得更穩定，對這次練習感到滿意。",
+        "outcome": "resolved",
+        "kind": "delight"
+      },
+      "leave_open": {
+        "text": "角色決定這次練習先到這裡，記住卡住的地方，沒有勉強自己立刻突破。",
+        "outcome": "unresolved",
+        "kind": "setback"
+      }
+    }
+  },
+  "scene_observation": {
+    "title": "一個值得多看一眼的小細節",
+    "activities": [],
+    "opening": "角色留意到周遭一個先前忽略的小細節，想再仔細觀察。",
+    "focus": "一個平常的小觀察，不創造新人物、危機、能力或使用者行動。",
+    "kind": "discovery",
+    "branches": {
+      "notice": {
+        "text": "角色換個思路留意那個細節，發現自己平常很少這樣慢慢觀察。",
+        "outcome": "progress",
+        "kind": "discovery"
+      },
+      "resolve": {
+        "text": "角色把這個小觀察記在心裡，覺得短暫停下注意生活也是一件愉快的事。",
+        "outcome": "resolved",
+        "kind": "delight"
+      },
+      "leave_open": {
+        "text": "角色暫時沒有替這個細節找到解釋，決定先保留好奇，不急著下結論。",
+        "outcome": "unresolved",
+        "kind": "discovery"
+      }
+    }
+  }
+}
