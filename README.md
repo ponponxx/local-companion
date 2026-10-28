@@ -4,7 +4,7 @@
 
 **A local AI character engine with a daily life — and an inner loop you can inspect.**
 
-[繁體中文](README.zh-TW.md) · [Quick start](#quick-start-macos-apple-silicon) · [Architecture](docs/ARCHITECTURE.md) · [Limitations](docs/LIApache-2.0ATIONS.md)
+[繁體中文](README.zh-TW.md) · [Quick start](#quick-start-macos--apple-silicon) · [Architecture](docs/ARCHITECTURE.md) · [Limitations](docs/LIMITATIONS.md)
 
 Experimental **v0.1.0-alpha.1** · Python 3.12 · macOS / Apple Silicon first · Apache-2.0
 

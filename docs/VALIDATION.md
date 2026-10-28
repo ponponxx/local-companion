@@ -25,4 +25,5 @@ No new model generation, private dialogue replay, external GPT call or Telegram
 message was used for this public export. No clean-machine end-to-end Telegram or
 media test was performed. These results establish packaging and synthetic
 behavior, not the suggested model's conversational quality or broad OS support.
-GitHub Actions has not run online; the repository has not yet been published.
+The source was published at https://github.com/ponponxx/local-companion on 2026-10-28.
+GitHub Actions was triggered; see the Actions tab for the live result. No versioned release/tag is claimed.

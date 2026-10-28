@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0-alpha.1 — public candidate
+## 0.1.0-alpha.1 — initial public snapshot
 
 - Standalone export from the active local companion implementation.
 - Original fictional world, adult demo character and empty user profile.
@@ -9,4 +9,4 @@
 - Explicit installation, privacy boundaries and known limitations.
 - No private runtime data, model weights, retired harness or uzu included.
 
-This is a local release candidate, not a published GitHub release.
+The source is published on GitHub. A versioned GitHub Release/tag has not been created.
