@@ -21,3 +21,7 @@ See docs/REFERENCES.md. The suggested public model has not undergone the same
 local generation trials as the developer's previous private fine-tune.
 
 The owner-selected avatar is presented as “Malfoid｜性轉馬份”, a fan-character branding image. This is separate from the original-world demonstration profile; no official affiliation is claimed.
+
+The current image family is Z-Image Turbo; the exact prequantized development
+distribution, optional embedding/speech models and distinct model-license metadata
+are listed in [docs/MODELS.md](docs/MODELS.md). Model weights are downloaded separately.

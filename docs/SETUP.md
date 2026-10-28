@@ -10,6 +10,8 @@ No auto-start LaunchAgents from the developer's machine are included.
 
 ## Images and voice
 
+See [model sources and the exact development image setup](MODELS.md).
+
 ```sh
 uv run --extra setup scripts/setup_local.py --images
 uv run --extra setup scripts/setup_local.py --voice

@@ -17,6 +17,13 @@ local workbench lets you explore decision rules. Memory, state and diagnostics
 stay on your computer. Telegram still transports messages; optional news,
 search, model downloads and explicitly requested external reviews use the network.
 
+## Models
+
+Chat: Qwen3.5-9B GGUF (Q4_K_M). Optional images: Z-Image Turbo via MFLUX.
+[Model sources, tested configurations, downloads and licenses](docs/MODELS.md)
+include the exact development 4-bit image distribution and distinguish it from
+the public defaults. No weights are bundled.
+
 ## Inside the engine
 
 ![Six cores and their handoffs](docs/diagrams/cores.svg)

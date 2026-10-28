@@ -1,0 +1,90 @@
+{
+  "checked_on": "2026-10-28",
+  "runtime_pins": {
+    "llama_cpp": "b11569",
+    "mflux": "0.22.0",
+    "whisper_cpp": "v1.9.5"
+  },
+  "models": [
+    {
+      "role": "public_chat",
+      "repo": "unsloth/Qwen3.5-9B-GGUF",
+      "url": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF",
+      "status": "suggested_default",
+      "installed_revision_known": null,
+      "catalog_revision_observed": "3885219b6810b007914f3a7950a8d1b469d598a5",
+      "license_metadata": "apache-2.0",
+      "license_name": null,
+      "bundled_weights": false
+    },
+    {
+      "role": "development_chat",
+      "repo": "mradermacher/qwen3.5-9b-nsfw-captioning-v5-GGUF",
+      "url": "https://huggingface.co/mradermacher/qwen3.5-9b-nsfw-captioning-v5-GGUF",
+      "status": "development_manifest",
+      "installed_revision_known": "f7ee28de74f93f24ad54459491e4e328de49deee",
+      "catalog_revision_observed": "f7ee28de74f93f24ad54459491e4e328de49deee",
+      "license_metadata": null,
+      "license_name": null,
+      "bundled_weights": false
+    },
+    {
+      "role": "development_image",
+      "repo": "filipstrand/Z-Image-Turbo-mflux-4bit",
+      "url": "https://huggingface.co/filipstrand/Z-Image-Turbo-mflux-4bit",
+      "status": "development_cached_revision",
+      "installed_revision_known": "b3a8f31115a11f2f9e2fa0bfbc8d78dcc3e6568b",
+      "catalog_revision_observed": "b3a8f31115a11f2f9e2fa0bfbc8d78dcc3e6568b",
+      "license_metadata": "other",
+      "license_name": "tongyi-qianwen-license",
+      "bundled_weights": false
+    },
+    {
+      "role": "image_upstream",
+      "repo": "Tongyi-MAI/Z-Image-Turbo",
+      "url": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo",
+      "status": "public_family_default",
+      "installed_revision_known": null,
+      "catalog_revision_observed": "f332072aa78be7aecdf3ee76d5c247082da564a6",
+      "license_metadata": "apache-2.0",
+      "license_name": null,
+      "bundled_weights": false
+    },
+    {
+      "role": "embedding",
+      "repo": "google/embeddinggemma-2",
+      "url": "https://huggingface.co/google/embeddinggemma-2",
+      "status": "optional_development_cpu",
+      "installed_revision_known": null,
+      "catalog_revision_observed": "26711154b641697c443124e316f3d21587f9ff5d",
+      "license_metadata": "apache-2.0",
+      "license_name": null,
+      "bundled_weights": false
+    },
+    {
+      "role": "speech_recognition",
+      "repo": "ggerganov/whisper.cpp",
+      "url": "https://huggingface.co/ggerganov/whisper.cpp",
+      "status": "optional_whisper_small",
+      "installed_revision_known": null,
+      "catalog_revision_observed": "5359861c739e955e79d9a303bcbc70fb988958b1",
+      "license_metadata": "mit",
+      "license_name": null,
+      "bundled_weights": false
+    }
+  ],
+  "development_image_settings": {
+    "model": "z-image-turbo",
+    "quantize": 4,
+    "width": 512,
+    "height": 512,
+    "steps": 9,
+    "timeout_seconds": 900
+  },
+  "context_tokens": 8192,
+  "notes": [
+    "Catalog revision is not proof of an installed revision.",
+    "Public defaults and development checkpoints differ.",
+    "No downloaded model weights are distributed with this repository."
+  ]
+}
