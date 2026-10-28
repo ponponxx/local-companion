@@ -17,6 +17,16 @@ local workbench lets you explore decision rules. Memory, state and diagnostics
 stay on your computer. Telegram still transports messages; optional news,
 search, model downloads and explicitly requested external reviews use the network.
 
+## Inside the engine
+
+![Six cores and their handoffs](docs/diagrams/cores.svg)
+
+**Observer proposes → rules decide → delivery sets tone → the Editor assembles → Writer speaks.**
+StoryCore supplies sourced context throughout; the state reducer owns confirmed facts.
+These are six responsibilities, not six models.
+
+[Four architecture diagrams and source-code mapping](docs/ARCHITECTURE.md) · [六個核心的中文說明](docs/CORES.zh-TW.md)
+
 ## Try the inspector without a model or Telegram
 
 ```sh

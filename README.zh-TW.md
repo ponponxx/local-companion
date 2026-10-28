@@ -12,6 +12,15 @@
 - 決策與措辭分離：先根據狀態選行為，再讓 Writer 表達。
 - 可追查：同輪 Observer 輸入、原始輸出與 Writer Prompt 都能看。
 
+## 核心架構一眼看懂
+
+![六個核心與資料交接](docs/diagrams/cores.svg)
+
+**理解提出事件 → 規則選行為 → 口吻決定說法 → 編輯組Prompt → Writer開口。**
+故事核提供有來源的過去資訊，狀態機確認當前事實；六個核心不代表六個模型。
+
+[四張架構圖與完整中文說明](docs/CORES.zh-TW.md) · [程式對照與Mermaid來源](docs/ARCHITECTURE.md)
+
 ## 先看展示，不用下載模型
 
 ```sh
