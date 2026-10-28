@@ -187,6 +187,12 @@ flowchart LR
 
 </details>
 
+## Image pipeline
+
+Character photos have their own bounded visual planner, state snapshot and Python
+composer before the MFLUX worker. See the [dedicated image pipeline guide](IMAGES.md)
+for the route diagram, command differences and prompt-field ownership.
+
 ## What these views intentionally leave out
 
 The figures focus on core responsibilities. Telegram authorization/settings,

@@ -8,6 +8,7 @@
 
 Experimental **v0.1.0-alpha.1** · Python 3.12 · macOS / Apple Silicon first · Apache-2.0
 
+- **Context-aware character photos:** current outfit, scene, time and camera assembled into an inspectable image prompt.
 - **A persistent life:** scheduled activities, scene changes, current outfits and small fictional events.
 - **Decisions before dialogue:** explicit needs, relationship and emotion state select actions; a Writer phrases the result.
 - **Inspectable turns:** view the Observer input, its raw output and the same turn's Writer Prompt in a local browser.
@@ -16,6 +17,21 @@ Telegram is the conversation interface. A Mini App edits settings; a separate
 local workbench lets you explore decision rules. Memory, state and diagnostics
 stay on your computer. Telegram still transports messages; optional news,
 search, model downloads and explicitly requested external reviews use the network.
+
+## Character photos that start from the current scene
+
+Use `/photo` to combine the character's appearance and current outfit with your
+shot request, registered background, time-aware lighting and camera direction.
+A bounded local visual planner proposes the shot; Python owns the final Prompt
+assembly. MFLUX then renders it locally with the selected image weights.
+
+![Context-aware character photo pipeline](docs/diagrams/image-pipeline.svg)
+
+[How the image pipeline works](docs/IMAGES.md) · [生圖流程中文圖解](docs/IMAGES.zh-TW.md)
+
+`/photo`, `/selfie` and `/image` have different paths. This is prompt-based
+continuity, not a face-lock guarantee; the guide explains what is model-planned,
+what is program-owned, and how to inspect the exact prompt.
 
 ## Models
 

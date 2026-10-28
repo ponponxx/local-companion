@@ -6,11 +6,24 @@
 
 [English](README.md) · [架構](docs/ARCHITECTURE.md) · [限制](docs/LIMITATIONS.md)
 
-這是實驗版，不保證角色永遠記得或判斷正確。主打三件事：
+這是實驗版，不保證角色永遠記得或判斷正確。主要功能：
 
+- 場景式角色照片：把當前衣著、地點、時間、鏡頭與這次要求組成可檢查的生圖Prompt。
 - 持續生活：行程、換場、目前衣著與日常小事件。
 - 決策與措辭分離：先根據狀態選行為，再讓 Writer 表達。
 - 可追查：同輪 Observer 輸入、原始輸出與 Writer Prompt 都能看。
+
+## 生圖：從角色的當下開始拍
+
+`/photo`會整合角色固定外觀、目前衣著、場景背景、時間光線，以及這次要求的表情與角度。
+本地模型做受限的視覺規劃，Python組最終Prompt，再由MFLUX執行圖片模型。
+
+![場景式角色照片流程](docs/diagrams/image-pipeline.svg)
+
+[完整生圖流程中文說明](docs/IMAGES.zh-TW.md) · [English／程式對照](docs/IMAGES.md)
+
+三種指令的路徑不同，文件會分清`/photo`、`/selfie`與`/image`；也說明單張換裝、道具、
+暫存圖清理與`/prompt`檢查。這是Prompt層一致性，不宣稱能保證鎖臉或人體結構。
 
 ## 使用哪些模型？
 

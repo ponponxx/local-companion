@@ -1,0 +1,62 @@
+{
+  "synthetic": true,
+  "model_calls": 0,
+  "note": "Synthetic snapshot and manually supplied planner result; actual Python visual_prompt output. No generated image or real dialogue.",
+  "request": "保持現在穿著，閉上眼睛，從側面拍一張，拿著茶杯。",
+  "snapshot": {
+    "appearance_authoritative": true,
+    "identity_anchors": "林青，28歲成年女性，黑色及肩髮、棕色眼睛，身形勻稱。",
+    "current_clothing": "外衣：淺灰色針織外套；上衣：白色棉質上衣；下裝：深色長褲；連身衣裙：未穿著；內衣：日常內著；襪子：棉襪；鞋子：平底鞋；衣著配件：未穿著",
+    "_current_clothing_slots": {
+      "outerwear": "淺灰色針織外套",
+      "top": "白色棉質上衣",
+      "bottom": "深色長褲",
+      "dress": "未穿著",
+      "underwear": "日常內著",
+      "socks": "棉襪",
+      "shoes": "平底鞋",
+      "accessories": "未穿著"
+    },
+    "current_accessories": "無配件",
+    "current_jewelry": "無飾品",
+    "current_makeup": "無妝",
+    "current_scene": "青葉莊園花園",
+    "background_context": {
+      "location": "青葉莊園花園",
+      "place_id": "manor_garden",
+      "environment": "outdoor",
+      "matched": true,
+      "background": "莊園戶外花園，修剪整齊的樹籬、花圃、石徑與石製長椅，莊園外牆位於遠處；星港原創幻想世界；避免現代電子設備"
+    },
+    "lighting": {
+      "at": "2026-10-28T21:15+08:00",
+      "period": "夜晚",
+      "description": "2026年10月28日 21:15，夜晚；深暗夜空與低照度環境，沒有日光"
+    },
+    "photo_dialogue": [],
+    "scene_facts": {
+      "facts": {
+        "character.hair": "黑色及肩髮自然披下",
+        "character.pose": "坐著"
+      }
+    }
+  },
+  "manual_plan": {
+    "include_character": true,
+    "posture": "seated",
+    "body_lean": "none",
+    "hand_pose": "unknown",
+    "expression": "自然微笑",
+    "view_direction": "side",
+    "camera_height": "eye_level",
+    "photo_objects": [
+      {
+        "object": "teacup",
+        "placement": "held",
+        "source": 0
+      }
+    ],
+    "photo_clothing_overrides": []
+  },
+  "final_prompt": "固定外觀：林青，28歲成年女性，黑色及肩髮、棕色眼睛，身形勻稱。衣著：外衣：淺灰色針織外套；上衣：白色棉質上衣；下裝：深色長褲；連身衣裙：未穿著；內衣：日常內著；襪子：棉襪；鞋子：平底鞋；衣著配件：未穿著。飾品：無飾品。配件：無配件。妝髮／髮型：黑色及肩髮自然披下。妝髮／妝容：無妝。表情：雙眼閉合。姿勢：坐著。拍攝道具：角色一隻手持一只茶杯，杯中內容不指定。背景：青葉莊園花園；莊園戶外花園，修剪整齊的樹籬、花圃、石徑與石製長椅，莊園外牆位於遠處；星港原創幻想世界；避免現代電子設備。時間與光線：2026年10月28日 21:15，夜晚；深暗夜空與低照度環境，沒有日光。鏡頭與構圖：使用者視角，鏡頭朝向角色，拍攝者位於畫面外；角色側面；平視角度。"
+}
